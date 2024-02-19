@@ -1,0 +1,70 @@
+/* Estilos para el menú de navegación */
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: white; /* Color de fondo del menú */
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: rgb(69, 74, 73);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(38, 205, 133) ; /* Color de fondo al pasar el cursor */
+  }
+ 
+  .contenedor2{
+  float: left; /* Hacer que los contenedores internos se alineen de izquierda a derecha */
+  width: 20%; /* Establecer el ancho deseado para los contenedores internos */
+  margin: 0 2% 20px 0; /* Añadir márgenes para separar los contenedores */
+  border: 1px solid #ddd;
+  padding: 15px; 
+  background-color: orange;
+  text-align: center;
+  
+  
+  }
+  .caja{    
+    width:100%;
+    height: 10vh; /* Ajusta la altura al 100% del viewport */
+    display: flex;
+    justify-content: center; /* Centra en el eje horizontal */
+    align-items: center; /* Centra en el eje vertical */
+    background-color: orangered;
+
+  }
+
+  .imagen_centro{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 200px;
+    height:250px;
+  }
+
+  .texto2{
+    color: white;
+  }
+
+  .caja_abajo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 150px;
+    height:20px;
+    color: white;
+    background-color: black;
+  }
+  .caja_abajo:hover {
+    background-color: rgb(38, 205, 74) ; /* Color de fondo al pasar el cursor */
+  }
